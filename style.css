@@ -1,0 +1,87 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0056b3; /* Azul Principal */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+    border-bottom: 4px solid #000000; /* Detalhe em Preto */
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+}
+
+header p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+main {
+    background-color: #121212; /* Fundo escuro/preto */
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+
+    border: 2px solid #0056b3; /* Borda Azul */
+    background-color: #1a1a1a; /* Fundo interno escuro */
+    border-radius: 8px;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 280px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #4da6ff;
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #aaaaaa;
+}
+
+button {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: 1px solid #003366;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #003366;
+}
